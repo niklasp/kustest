@@ -75,8 +75,8 @@ dependencies:
     specifier: ^12.6.2
     version: 12.6.2(@polkadot/util@12.6.2)
   '@scio-labs/use-inkathon':
-    specifier: link:../use-inkathon
-    version: link:../use-inkathon
+    specifier: niklasp/use-inkathon#add/supportedWalletsRelease
+    version: github.com/niklasp/use-inkathon/76b127f35df828f48d72388b5f6861a78908c390(@nightlylabs/wallet-selector-polkadot@0.1.19)(@polkadot/api-contract@10.12.4)(@polkadot/api@10.12.4)(@polkadot/extension-inject@0.46.8)(@polkadot/keyring@12.6.2)(@polkadot/types@10.12.4)(@polkadot/util-crypto@12.6.2)(@polkadot/util@12.6.2)(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/query-sync-storage-persister':
     specifier: ^5.28.0
     version: 5.28.4
@@ -6716,3 +6716,33 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  github.com/niklasp/use-inkathon/76b127f35df828f48d72388b5f6861a78908c390(@nightlylabs/wallet-selector-polkadot@0.1.19)(@polkadot/api-contract@10.12.4)(@polkadot/api@10.12.4)(@polkadot/extension-inject@0.46.8)(@polkadot/keyring@12.6.2)(@polkadot/types@10.12.4)(@polkadot/util-crypto@12.6.2)(@polkadot/util@12.6.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {tarball: https://codeload.github.com/niklasp/use-inkathon/tar.gz/76b127f35df828f48d72388b5f6861a78908c390}
+    id: github.com/niklasp/use-inkathon/76b127f35df828f48d72388b5f6861a78908c390
+    name: '@scio-labs/use-inkathon'
+    version: 0.8.1
+    engines: {node: '>=18 <=20', pnpm: '8'}
+    peerDependencies:
+      '@nightlylabs/wallet-selector-polkadot': '>=0.1.10'
+      '@polkadot/api': '>=10'
+      '@polkadot/api-contract': '>=10'
+      '@polkadot/extension-inject': '>=0.46'
+      '@polkadot/keyring': '>=10'
+      '@polkadot/types': '>=10'
+      '@polkadot/util': '>=10'
+      '@polkadot/util-crypto': '>=10'
+      react: '>=18'
+      react-dom: '>=18'
+    dependencies:
+      '@nightlylabs/wallet-selector-polkadot': 0.1.19(@polkadot/util@12.6.2)
+      '@polkadot/api': 10.12.4
+      '@polkadot/api-contract': 10.12.4
+      '@polkadot/extension-inject': 0.46.8(@polkadot/api@10.12.4)(@polkadot/util@12.6.2)
+      '@polkadot/keyring': 12.6.2(@polkadot/util-crypto@12.6.2)(@polkadot/util@12.6.2)
+      '@polkadot/types': 10.12.4
+      '@polkadot/util': 12.6.2
+      '@polkadot/util-crypto': 12.6.2(@polkadot/util@12.6.2)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
